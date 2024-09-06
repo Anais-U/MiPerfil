@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MiPerfil</string>
+    <string name="name">Anais Urra</string>
+    <string name="ocupacion">Desarrolladora de Aplicaciones Android </string>
+    <string name="paragraph">Soy una profesional dedicada y comprometida,
+        apasionada por encontrar la sinergia perfecta
+        entre un código limpio y un diseño atractivo.Mi
+        objetivo es crear aplicaciones que no solo funcionen bien,
+        sino que también ofrezcan una experiencia visual y de
+        usuario excepcional.</string>
+    <string name="btncontact">Contactame</string>
+    <string name="tvtitulo">¡Hablemos y llevemos tu proyecto al siguiente nivel!</string>
+    <string name="tvcontacto">Estoy aquí para ayudarte a hacer realidad
+        tus ideas. Contáctame a través de WhatsApp, LinkedIn o correo
+        electrónico y juntos podemos crear algo increíble.</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="wsp">WhatsApp</string>
+    <string name="lkd">Linkedin</string>
+</resources>

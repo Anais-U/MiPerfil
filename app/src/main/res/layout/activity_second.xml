@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_second"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tvtitulo"
+        android:layout_width="299dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="208dp"
+        android:text="@string/tvtitulo"
+        android:theme="@style/tvGeneral"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvcontacto"
+        android:layout_width="271dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/tvcontacto"
+        android:theme="@style/tvParagraph"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvtitulo" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="69dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="342dp" />
+
+    <ImageView
+        android:id="@+id/ivWhatsapp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/wsp"
+        android:src="@drawable/ic_whatsapp"
+        app:layout_constraintEnd_toStartOf="@id/ivLinkedin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvcontacto" />
+
+    <ImageView
+        android:id="@+id/ivLinkedin"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/lkd"
+        android:src="@drawable/ic_linkedin"
+        app:layout_constraintEnd_toStartOf="@id/ivEmail"
+        app:layout_constraintStart_toEndOf="@id/ivWhatsapp"
+        app:layout_constraintTop_toBottomOf="@id/tvcontacto" />
+
+    <ImageView
+        android:id="@+id/ivEmail"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="@string/email"
+        android:src="@drawable/ic_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivLinkedin"
+        app:layout_constraintTop_toBottomOf="@id/tvcontacto" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
